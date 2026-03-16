@@ -1,0 +1,14 @@
+{
+  "entryPoints": [
+    "./src/**/*.ts"
+  ],
+  "out": "./docs/",
+  "readme": "README.md",
+  "name": "Vector3D",
+  "tsconfig": "./tsconfig.json",
+  "gitRemote": "Vector3D",
+  "gitRevision": "main",
+  "excludePrivate": true,
+  "excludeInternal": true,
+  "categorizeByGroup": true
+}
