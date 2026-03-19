@@ -33,15 +33,15 @@
 To use `Vector3D` in your project, install it via npm:
 
 ```bash
-npm install vec3d
+npm install @lzimul/vector3d
 ```
 
 ## 📖 Quick Start
 
-Import the `vec3d` class and start performing 3D operations.
+Import the `@lzimul/vector3d` class and start performing 3D operations.
 
 ```typescript
-import { Vector3D } from 'vec3d'; // Assuming main export
+import { Vector3D } from '@lzimul/vector3d'; // Assuming main export
 
 // Create vectors
 const vecA = new Vector3D(1, 2, 3);

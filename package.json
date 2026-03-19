@@ -1,5 +1,5 @@
 {
-  "name": "vec3d",
+  "name": "@lzimul/vector3d",
   "description": "Vector3D",
   "version": "1.0.1",
   "author": {
