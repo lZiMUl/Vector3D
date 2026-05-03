@@ -1,7 +1,7 @@
 {
   "name": "@lzimul/vector3d",
   "description": "Vector3D",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": {
     "name": "lZiMUl",
     "email": "lZiMUl@lzimul.com",
@@ -24,7 +24,6 @@
   "homepage": "https://projects.lzimul.com/Vector3D",
   "main": "./build/index.js",
   "types": "./lib/index.d.ts",
-  "typings": "./lib/index.d.ts",
   "license": "MIT",
   "scripts": {
     "start": "node .",
@@ -36,11 +35,10 @@
   },
   "exports": {
     ".": {
-      "default": {
-        "default": "./build/index.js",
-        "require": "./build/index.js",
-        "types": "./lib/index.d.ts"
-      }
+      "types": "./lib/index.d.ts",
+      "import": "./build/index.js",
+      "require": "./build/index.js",
+      "default": "./build/index.js"
     }
   },
   "files": [
@@ -52,7 +50,25 @@
     "./SECURITY.md"
   ],
   "keywords": [
-    "lZiMUl"
+    "lZiMUl",
+    "vector3d",
+    "vector",
+    "3d-vector",
+    "math",
+    "linear-algebra",
+    "geometry",
+    "3d-math",
+    "vector-math",
+    "math-library",
+    "game-development",
+    "game-engine",
+    "physics",
+    "physics-engine",
+    "computational-geometry",
+    "typescript",
+    "javascript",
+    "threejs",
+    "webgl"
   ],
   "dependencies": {
   },
@@ -87,7 +103,5 @@
     "tag": "latest"
   },
   "sideEffects": false,
-  "private": false,
-  "preferGlobal": true,
-  "deprecated": false
+  "private": false
 }
